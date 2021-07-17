@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <script
+      src="https://unpkg.com/@babel/standalone/babel.min.js"
+      crossorigin
+    ></script>
+
+    <title>Simple Form</title>
+  </head>
+
+  <body>
+    <p>Refresh here to see your changes</p>
+    <img src="https://cdn.pixabay.com/photo/2017/12/09/08/18/pizza-3007395_960_720.jpg"/ height=100>
+    <h1>Build Your Pizza</h1>
+    <!-- img taken from following link: https://pixabay.com/photos/pizza-food-italian-baked-cheese-3007395/ -->
+    <!-- We will put our React component inside this div. -->
+    <div id="root"></div>
+    <h3>Most Recent Order:</h3>
+    <div id="most-recent-order"><div>
+
+    <!-- Load React. -->
+    <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+    <script
+      src="https://unpkg.com/react@17/umd/react.development.js"
+      crossorigin
+    ></script>
+    <script
+      src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"
+      crossorigin
+    ></script>
+
+    <!-- Load our React component. -->
+    <script type="text/jsx" src="./form.jsx"></script>
+  </body>
+</html>
